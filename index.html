@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu Encabeza-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Yandira</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</S></a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#portafolio">PORTAFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>          
+                </ul>
+            </nav>
+            <div class="nav-respondive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        </header>
+    </div>
+    
+    <!--Seccion de Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="./scr/img/IMG_20220915_164010.png" alt="">
+            </div>
+               <h1>Yandira Condo </h1>
+               <h2>Desarrolladora Web Jr.</h2>
+                 <div class="redes">
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <!--Seccion SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+          <p><span>Hola,soy Yandira Condo.</span>Egresada de Laboratoria como Desarrolladora Web. En el 2022 fui seleccionada para formar parte 
+            del Bootcamp de Laboratoria, mientras me desempeñaba en el campo laboral como Asistente 
+            Administrativo-Contable, acepté el reto de formar parte de esta comunidad impulsando el avance 
+            tecnológico donde se incluye a la mujer.</p>
+    
+            <div class="fila">
+            <!--Datos personales--> 
+            <div class="col">
+                 <h3>Datos Personales</h3>
+              <ul>
+                 <li>
+                     <strong>Telefono</strong>
+                     935-380-177
+                 </li>
+                 <li>
+                     <strong>Email</strong>
+                     y.condo.dv@gmail.com
+                 </li>
+              </ul>
+             </div>
+             <!--Intereses-->
+             <div class="col">
+                <h3>Intereses</h3>
+                 <div class="contenedor-intereses">
+                    <div class="intereses">
+                      <i class="fa-solid fa-music"></i>
+                      <span>Musica</span>
+                    </div>
+                    <div class="intereses">
+                      <i class="fa-solid fa-plane"></i>
+                      <span>Viajar</span>
+                    </div>
+                    <div class="intereses">
+                      <i class="fa-solid fa-book"></i>
+                      <span>Leer</span>
+                    </div>
+
+            </div>
+          </div>
+        </div>
+            <button>
+              Descargar CV <i class="fa-sharp fa-solid fa-download"></i>
+              <span class="overlay"></span> 
+            </button>
+       </div>
+    </section>
+
+    <!--Seccion Skills-->
+   <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!--Technical Skill-->
+           <div class="col">
+             <h3>Technical Skills</h3>
+             <div class="skill">
+                <span>HTML</span>
+                <div class="barra-skill">
+                  <div class="progreso">
+                    <span>Básico</span>
+                  </div>
+                </div>  
+             </div>
+                <div class="skill">
+                 <span>Javascript</span>
+                 <div class="barra-skill">
+                   <div class="progreso ">
+                    <span>Básico</span>
+                   </div>
+                 </div>  
+              </div>
+            <div class="skill">
+               <span>css</span>
+                <div class="barra-skill">
+                  <div class="progreso">
+                   <span>Básico</span>
+                  </div>
+                </div>  
+           </div>
+           <div class="skill">
+            <span>React</span>
+             <div class="barra-skill">
+               <div class="progreso">
+                <span>Básico</span>
+               </div>
+             </div>  
+        </div>
+          </div>
+                <!--Profesional Skill-->
+                <div class="col">
+                  <h3>Professional Skills</h3>
+                  <div class="skill">
+                     <span>Trabajo en Equipo </span>
+                     <div class="barra-skill">
+                       <div class="progreso">
+                         <span>80%</span>
+                       </div>
+                     </div>  
+                  </div>
+                     <div class="skill">
+                      <span>Proactiva</span>
+                      <div class="barra-skill">
+                        <div class="progreso">
+                         <span>90%</span>
+                        </div>
+                      </div>  
+                   </div>
+                 <div class="skill">
+                    <span>Comunicacion</span>
+                     <div class="barra-skill">
+                       <div class="progreso">
+                        <span>75%</span>
+                       </div>
+                     </div>  
+                </div>
+              </div>
+        </div>
+
+      </div>
+   </section>
+   <!--Seccion CV-->
+   <section id="curriculum" class="curriculum">
+     <div class="contenido-seccion">
+         <h2>Curriculum</h2>
+         <div class="fila">
+           <div class="col izquierda">
+            <h3>Educacion</h3>
+             <div class="item izq">
+               <h4>Desarrollo Web</h4>
+               <span class="casa">Laboratoria</span>
+               <span class="fecha">11.2022 - 05.2023</span>
+               <div class="conectori">
+                <div class="circuloi"></div>
+               </div>
+              </div>
+              <div class="item izq">
+                <h4>Negocios Internacionales</h4>
+                <span class="casa">Instituto SISE</span>
+                <span class="fecha">03.2013 - 07.2017</span>
+                <div class="conectori">
+                 <div class="circuloi"></div>
+                </div>
+               </div>
+           </div>
+
+           <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+             <div class="item der">
+               <h4>Desarrollo Web</h4>
+               <span class="casa">Laboratoria</span>
+               <span class="fecha">11.2022 - 05.2023</span>
+               <div class="conectod">
+                <div class="circulod"></div>
+               </div>
+              </div>
+
+              <div class="item der">
+                <h4>Asistente Administrativo</h4>
+                <span class="casa">Camorell SAC</span>
+                <span class="fecha">01.2021 - 11.2022</span>
+                <div class="conectod">
+                 <div class="circulod"></div>
+                </div>
+               </div>
+
+           </div>
+         </div>
+     </div>
+   </section>
+   <!--Seccion Portafolio-->
+   <section>
+    <div>
+
+    </div>
+   </section>
+</body>
+</html>
