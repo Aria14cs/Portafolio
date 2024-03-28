@@ -4,7 +4,6 @@
   font-family: 'Outfit';
   margin: 0;
   padding: 0;
-  
 }
 
 html {
@@ -35,7 +34,6 @@ html {
   text-decoration: none;
 }
 .contenedor-header header ul {
-  width: 100%;
   display: flex;
   list-style: none;
 }
@@ -448,12 +446,10 @@ html {
   margin: auto;
 }
 .portfolio h2{
-  font-size: 25px;
+  font-size: 48px;
   font-family: 'Outfit';
-  /* text-align: center; */
+  text-align: center;
   padding: 20px 0;
-  margin-top: 50px;
-
 }
 .portfolio .galeria{
   display: flex;
@@ -508,20 +504,18 @@ html {
   margin: auto;
 }
 .contacto h2{
-  font-size: 28px;
+  font-size: 48px;
   font-family: 'Outfit';
   text-align: center;
   padding: 20px 0;
-  margin-top: 50px;
 }
 .contacto .fila{
   display: flex;
 }
 .contacto .col{
-  width: 100%;
+  width: 50%;
   padding: 10px;
   position: relative;
-  margin-top: 90px;
 }
 .contacto .col input, .contacto .col textarea{
   display: block;
@@ -615,7 +609,7 @@ footer .arriba{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: -10px;
+  top: -25px;
   border-radius: 50%;
   line-height: 50px;
   font-size: 18px;
