@@ -670,10 +670,10 @@ footer .arriba{
 } */
 @media screen and (max-width:700px){
   .inicio{
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .sobremi{
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .sobremi .fila{
    
@@ -683,7 +683,7 @@ footer .arriba{
       width: fit-content;
   }
   .skills{
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .skills .fila{
       display: block;
@@ -696,7 +696,7 @@ footer .arriba{
   }
   .curriculum 
   {
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .curriculum .fila{
       display: block;
@@ -708,7 +708,7 @@ footer .arriba{
       margin-left: 20px;
   }
   .portfolio{
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .portfolio .galeria{
       display: block;
@@ -721,7 +721,7 @@ footer .arriba{
       width: 100%;
   }
   .contacto{
-    margin-top: 80%;
+    margin-top: 70%;
   }
   .contacto .fila{
       display: block;
