@@ -58,7 +58,7 @@ html {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  display: none;
+  /* display: none; */
 }
 /* Seccion Inicio */
 .inicio {
@@ -620,13 +620,37 @@ footer .arriba{
   line-height: 50px;
   font-size: 18px;
 }
-/* SECCION RESPONSIVE */
+
+
+@media screen and (max-width: 980px) {
+  nav {
+    display: block; /* Mostrar la barra de navegación */
+  }
+  .nav-responsive {
+    display: none; /* Ocultar el botón de navegación responsivo */
+  }
+  nav ul {
+    display: flex; /* Mostrar todas las listas de navegación en línea */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan a la siguiente línea */
+    justify-content: center; /* Centrar las listas horizontalmente */
+  }
+  nav ul li {
+    margin: 10px; /* Añadir espaciado entre los elementos de la lista */
+    text-align: center; /* Centrar el texto */
+    width: 100%; /* Ocupar todo el ancho disponible */
+  }
+  .contenedor-header header .logo {
+    flex: 1; /* El logo tomará todo el espacio disponible */
+  }
+}
+
+/* SECCION RESPONSIVE
 @media screen and (max-width:980px){
   nav{
-      display: none;
+      display: block;
   }
   .nav-responsive{
-      display: block;
+      display: none;
   }
   nav.responsive{
       display: block;
@@ -637,21 +661,30 @@ footer .arriba{
       width: 180px;
   }
   nav.responsive ul{
-      display: block !important;
+      display: flex !important;
   }
   nav.responsive ul li{
       border-bottom: 1px solid #fff;
       padding: 10px 0;
   }
-}
+} */
 @media screen and (max-width:700px){
+  .inicio{
+    margin-top: 80%;
+  }
+  .sobremi{
+    margin-top: 80%;
+  }
   .sobremi .fila{
+   
       display: block;
   }
   .sobremi .fila .col{
       width: fit-content;
   }
-
+  .skills{
+    margin-top: 80%;
+  }
   .skills .fila{
       display: block;
   }
@@ -661,7 +694,10 @@ footer .arriba{
   .skills .fila .col .barra-skill{
       width: 100%;
   }
-
+  .curriculum 
+  {
+    margin-top: 80%;
+  }
   .curriculum .fila{
       display: block;
   }
@@ -671,7 +707,9 @@ footer .arriba{
   .curriculum .fila .derecha{
       margin-left: 20px;
   }
-
+  .portfolio{
+    margin-top: 80%;
+  }
   .portfolio .galeria{
       display: block;
       width: 100%;
@@ -681,6 +719,9 @@ footer .arriba{
   }
   .portfolio .galeria .proyecto img{
       width: 100%;
+  }
+  .contacto{
+    margin-top: 80%;
   }
   .contacto .fila{
       display: block;
