@@ -622,7 +622,7 @@ footer .arriba{
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 700px) {
   nav {
     display: block; /* Mostrar la barra de navegación */
   }
@@ -644,30 +644,6 @@ footer .arriba{
   }
 }
 
-/* SECCION RESPONSIVE
-@media screen and (max-width:980px){
-  nav{
-      display: block;
-  }
-  .nav-responsive{
-      display: none;
-  }
-  nav.responsive{
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 75px;
-      background-color: #252A2E;
-      width: 180px;
-  }
-  nav.responsive ul{
-      display: flex !important;
-  }
-  nav.responsive ul li{
-      border-bottom: 1px solid #fff;
-      padding: 10px 0;
-  }
-} */
 @media screen and (max-width:700px){
   .inicio{
     margin-top: 70%;
