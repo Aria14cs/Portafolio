@@ -521,7 +521,7 @@ html {
   width: 100%;
   padding: 10px;
   position: relative;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 .contacto .col input, .contacto .col textarea{
   display: block;
@@ -646,10 +646,10 @@ footer .arriba{
 
 @media screen and (max-width:700px){
   .inicio{
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .sobremi{
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .sobremi .fila{
    
@@ -659,7 +659,7 @@ footer .arriba{
       width: fit-content;
   }
   .skills{
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .skills .fila{
       display: block;
@@ -672,7 +672,7 @@ footer .arriba{
   }
   .curriculum 
   {
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .curriculum .fila{
       display: block;
@@ -684,7 +684,7 @@ footer .arriba{
       margin-left: 20px;
   }
   .portfolio{
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .portfolio .galeria{
       display: block;
@@ -697,7 +697,7 @@ footer .arriba{
       width: 100%;
   }
   .contacto{
-    margin-top: 70%;
+    margin-top: 72%;
   }
   .contacto .fila{
       display: block;
